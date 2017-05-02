@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject.iml" filepath="$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject_main.iml" group="SQ2-FirstGradleJunitProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SQ2-FirstGradleJunitProject_test.iml" group="SQ2-FirstGradleJunitProject" />
+    </modules>
+  </component>
+</project>
