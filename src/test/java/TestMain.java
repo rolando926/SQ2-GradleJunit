@@ -9,9 +9,10 @@ public class TestMain {
 
     @Test
     public void testDisplayMessage(){
-        Assert.assertEquals("This is not working",
+        Assert.assertEquals(
                 "This method 'displayMessage' is working!",myMain.displayMessage());
-        myMain.displayMessage();
+        System.out.println("This really works!");
+        //myMain.displayMessage();
     }
 
     @Test

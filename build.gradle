@@ -13,3 +13,14 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+test{
+    testLogging.showStandardStreams = true
+
+    beforeTest {descriptor -> logger.lifecycle("Running test: "+descriptor)}
+
+    onOutput {descriptor,event -> logger.lifecycle("Tests: "+descriptor+" produced std/err: "+event.message)}
+}
+
+
+
