@@ -18,6 +18,6 @@ public class TestMain {
     @Test
     public void testAddMethod(){
         System.out.println(myMain.add(5,7));
-        Assert.assertEquals("This method is not working!",12, myMain.add(5,7));
+        Assert.assertEquals("This method is not working!",13, myMain.add(5,7));
     }
 }
